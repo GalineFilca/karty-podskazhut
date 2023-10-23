@@ -82,13 +82,14 @@
             srcset="./images/cards-1x.webp 1x, ./images/cards-2x.webp 2x"
             type="image/webp"
           />
-          <source
+          <!--<source
             srcset="./images/cards-1x.png 1x, ./images/cards-2x.png 2x"
             type="image/png"
-          />
+          />-->
           <img
             class="content__picture"
-            src="./images/cards-1x.png"
+            srcset="./images/cards-1x.png 1x, ./images/cards-2x.png 2x"
+            type="image/png"
             alt="Колода Oblique Strategies"
             loading="lazy"
           />
@@ -161,7 +162,7 @@
 
       <article class="content__card">
         <h3 class="heading content__card-title">
-          Use an <span class="colored-text">old&nbspidea</span>
+          Use an <span class="colored-text">old&nbsp;idea</span>
         </h3>
         <p class="content__card-subtitle">Воспользуйтесь старой идеей</p>
       </article>
